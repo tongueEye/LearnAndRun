@@ -74,6 +74,10 @@
 
             </c:when>
 
+            <c:when test="${contentpage=='test'}">
+                <jsp:include page="template_test.jsp"/>
+            </c:when>
+
 <%--            <c:when test="${contentpage=='login'}">--%>
 <%--                <div class="section_box">--%>
 <%--                    <jsp:include page="login.jsp"/>--%>
